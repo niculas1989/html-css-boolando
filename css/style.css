@@ -17,10 +17,14 @@ section {
     width: 20px;
     background-color: white;
     position: absolute;
-    top: 10px;
+    top: 15px;
     right: 0;
     text-align: center;
     font-size: 12px;
+}
+
+.heart:hover {
+    color: red;
 }
 
 .container {
@@ -29,12 +33,7 @@ section {
 }
 
 .row {
-    margin: 30px;
-    /* position: relative; */
-}
-
-.cards {
-    position: relative;
+    margin: 30px 40px;
 }
 
 .box {
@@ -49,6 +48,12 @@ section {
     background-color: green;
 }
 
+.box.green-box-left {
+    position: absolute;
+    bottom: 15px;
+    background-color: green;
+}
+
 .box.red-box {
     position: absolute;
     bottom: 15px;
@@ -59,12 +64,14 @@ section {
 
 .cards {
     height: 450px;
-    width: 33%;
+    width: 30%;
+    margin: 10px 5px;
     display: inline-block;
     background-color: black;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    position: relative;
 }
 
 .cards.man {
