@@ -15,6 +15,10 @@
 
 .row {
     margin: 30px;
+    /* position: relative; */
+}
+
+.cards {
     position: relative;
 }
 
@@ -51,11 +55,27 @@
 .cards.man {
     background-image: url(../img/1.webp);
 }
+
 .cards.woman {
     background-image: url(../img/2.webp);
 }
+
 .cards.seated-woman {
     background-image: url(../img/3.webp);
 }
+
+.cards.black-man {
+    background-image: url(../img/4.webp);
+}
+
+.cards.long-abit {
+    background-image: url(../img/5.webp);
+}
+
+.cards.black-woman {
+    background-image: url(../img/6.webp);
+}
+
+
 
 
