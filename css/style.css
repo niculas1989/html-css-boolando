@@ -6,14 +6,56 @@
     box-sizing: border-box;
 }
 
+/* Utilities */
+
 .container {
     max-width: 1000px;
     margin: 0 auto;
 }
 
-body {
-    font-family: sans-serif;
+.row {
+    margin: 30px;
+    position: relative;
+}
+
+.box {
+    color: white;
+    font-size: 12px;
+}
+
+.box.green-box {
+    position: absolute;
+    bottom: 15px;
+    left: 30px;
+    background-color: green;
+}
+
+.box.red-box {
+    position: absolute;
+    bottom: 15px;
+    background-color: red;
+}
+
+/* About products */
+
+.cards {
+    height: 400px;
+    width: 33%;
+    display: inline-block;
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cards.man {
+    background-image: url(../img/1.webp);
+}
+.cards.woman {
+    background-image: url(../img/2.webp);
+}
+.cards.seated-woman {
+    background-image: url(../img/3.webp);
 }
 
 
-/* UTILITIES */
